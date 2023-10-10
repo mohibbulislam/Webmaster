@@ -1,0 +1,388 @@
+       /* RESET CODE STARTS HERE */
+       *{
+        font-family: 'Poppins', sans-serif;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+       }
+       
+    
+       /* RESET CODE ENDS HERE */
+
+       
+       /* !header design starts here */
+       #menu-icon{
+        display:none;
+       
+       }
+       header{ background-image:url(images/header.jpg);}
+       .welcome{
+        width:100%;
+        height:765px;
+        position: sticky;
+        
+       }
+       .header .link__list{
+            
+            color:white;
+            font-size:1.2rem;
+            background-size:cover;
+        
+            
+        }
+       
+        
+        
+        
+       
+        .link__list{ 
+            padding: 2rem;
+            list-style-type: none;
+            display:flex;
+            justify-content:space-around;
+            font-size:1rem;
+           
+        }
+        .link__list a{
+            text-decoration: none;
+            color:white;
+        }
+        .welcome{
+            color:white;
+            text-align:center;
+            padding-bottom:2rem;
+            padding:1rem;
+            
+           
+        }
+        .welcome h2{
+            font-size:32px;
+            font-weight:lighter;
+           
+        }
+        .welcome h1{
+            font-size:64px;
+            font-weight:lighter;
+           
+        }
+
+        .btn{
+            margin:10px;
+            border-radius:10px 100px/120px 100px;
+            border:none;
+            font-size:1rem;
+            background-color:#353434;
+            color:white;
+            padding:10px;
+           
+        }
+        
+        
+        /* HEADER DESIGN ENDS HERE */
+
+        /* MAIN DESIGN STARTS HERE */
+    .about{
+        text-align:center;
+        margin:100px;
+
+    }
+    .about p{
+        margin-bottom:20px;
+    }
+    .flex-box{
+        display:flex;
+        flex-direction: row;
+        
+        
+        
+    }
+    .flex-center{
+           
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        margin:50px;
+        font-size:20px;
+        margin:20px auto;
+        
+    }
+    .html i{
+        color:orangered;
+        background: #2d3436;
+        padding:29px 38px;
+        border-radius:50%;
+    }
+    .css i{
+        color:#0984e3;
+        background-color:#2d3436 ;
+        padding:29px 38px;
+        border-radius:50%;
+    }
+    .javas i{
+        color:yellow;
+        background-color:#2d3436 ;
+        padding:29px 34px;
+        border-radius:50%;
+    }
+    .bootstrap i{
+        color:#8e44ad;
+        background-color:#2d3436;
+        padding:29px 27px;
+        border-radius:50%;
+    }
+
+   
+
+    
+    
+    
+    
+   
+    
+    
+    
+    .work{
+        text-align:center;
+    }
+    .work p{
+        align-items: center;
+        justify-content: center;
+        text-align:justify;
+    }
+    
+    .creative{
+        position:relative;
+        width:100%;
+        height:1000px;
+        text-align: center;
+       
+    }
+    .w-1{
+        width:657px;
+        height:334px;
+        position:absolute;
+        left:52px;
+       
+       
+        
+    }
+    .main{
+      
+        width:90%;
+        display:flex;
+        flex-basis:30%;
+        flex-wrap:wrap;
+        flex-direction:row;
+        justify-content:center;
+        padding:20px;
+        margin:0 auto;
+        
+       
+    }
+    .child{
+        margin-top:-1%;
+       
+    }
+    .cards{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+        
+    }
+    .cards div{
+        margin:50px;
+       
+        
+    }
+    
+    .customer{
+        text-align: center;
+        
+       
+        
+    }
+    .customer_card{
+       
+         width: 342px;
+         height:365px;
+         border: 1px solid white;
+         border-radius: 5px;
+         padding: 20px;
+         box-shadow: 5px 5px 15px 15px rgba(0, 0, 0, 0.1);
+        
+    }
+    .customer_card1{
+       
+        width: 342px;
+        height:365px;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 5px 5px 15px 15px rgba(0, 0, 0, 0.1);
+       
+   }
+   .customer_card2{
+       
+    width: 342px;
+    height:365px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 15px rgba(0, 0, 0, 0.1);
+   
+}
+
+ #arrows{
+    display:flex;
+    flex-direction: row;
+    margin:0 auto 20px auto;
+   
+
+   
+ }
+ 
+  
+
+.arrow-left i{
+    box-sizing: border-box;
+    color:white;
+    margin:15px;
+    padding:15px;
+    border-radius:100%;
+    background-color: black;
+    
+    
+    
+    
+}
+.arrow-right i{
+    box-sizing: border-box;
+    color:white;
+    margin:15px;
+    padding:15px;
+    border-radius:100%;
+    background-color: black;
+    
+}
+.imformation{
+    width:100%;
+    padding:45px 0;                      
+    background-image:url(images/w-5.jpg);
+    background-size: cover;
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-around;    
+}
+.inf-art{
+    margin:0 50px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    font-size:1.5rem;
+}
+
+
+
+
+.imformation p{
+ font-size:20px;
+ color:white;
+ text-align:center;
+ margin:0 80px 0 80px;                          
+}
+.input{
+   display:block;
+   text-align:center;
+}
+
+
+.input h1{
+    text-align:center;
+    margin:20px 0;
+    
+}
+.input form button{
+   margin:0 auto;
+   border: none;
+    outline: none;
+    padding: 12px 50px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    background-color: #fec913;
+    color: #fff;
+    border-radius: 30px;
+}
+
+
+
+.input input{
+    outline: none;
+    background-color: transparent;
+    width: 50%;
+    margin: 15px 0;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    
+}
+.input #cmmt{
+    height:150px;
+}
+
+     
+
+.input button{
+    display:block;
+    text-align:center;
+    
+}
+
+.map{
+    width: 80%;
+    margin: 50px auto;
+}
+
+    
+
+
+        /* *MAIN DESIGN ENDS HERE */
+
+        /* !FOOTER DESIGN STARTS HERE */
+        footer{
+            text-align: center;
+            background-color:#030121 ;
+            color:aliceblue;
+            font-size:1.5rem;
+        }
+        .newsletter input{
+            width:300px;
+            height:30px;
+            outline:none;
+            margin: 15px 0;
+            padding: 10px 20px;
+            
+        }
+        #subs{
+            margin:0 0 0 -6px;
+            padding:7px 5px;
+            background-color:#e74c3c;
+            color:white;
+            border:2px;
+        }
+        
+        
+        .icons ul,li{
+            
+            list-style-type:none;
+
+            display:inline;
+            margin-right:20px;
+            font-size:1.3rem;    
+        }
+       
+
+
+        /* !FOOTER DESIGN ENDS HERE */
